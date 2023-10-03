@@ -8,7 +8,7 @@ const AdminDashboard = () => {
     const [courseData, setCourseData] = useState([]);
 
     useEffect(() => {
-      fetch('http://localhost:8500/api/courses')
+      fetch('https://takemyexamz.onrender.com/api/courses')
       .then((rs) => {
         if(!rs.ok) {
           throw new Error('Error while retrieving data');
