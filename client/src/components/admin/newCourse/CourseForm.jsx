@@ -11,7 +11,7 @@ const CourseForm = () => {
         e.preventDefault();
         console.warn({name, desc});
         const data = {name, desc};
-        fetch('http://localhost:8500/api/courses', {
+        fetch('https://takemyexamz.onrender.com/api/courses', {
             method: 'POST',
             headers: {
                 'Accepted': 'application/json',

@@ -36,5 +36,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8500/api"
+  "proxy": "https://takemyexamz.onrender.com/api"
 }
