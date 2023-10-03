@@ -17,8 +17,8 @@ async function connect () {
             useUnifiedTopology: true,
         })
         console.log("Connected to mongodb :)");
-    }catch (err) {
-        console.error(err);
+    }catch (error) {
+        console.error(error);
     }
 };
 
