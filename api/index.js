@@ -32,6 +32,17 @@ app.use(cors());
 app.use("/api/courses", coursesRoute);
 app.use("/api/exams", examsRoute);
 
+app.use((err, rq, rs, next) => {
+    const errorStatus = err.status || 500;
+    const errorMessage = err.message || "Something went wrong :(";
+    return rs.status(errorStatus).json({
+        success: false,
+        status: errorStatus,
+        message: errorMessage,
+        stack: err.stack,
+    });
+});
+
 app.listen(8500, () => {
     connect();
     console.log("Connected to backend :)");
