@@ -1,0 +1,39 @@
+.courseForm>h2 {
+    text-align: left;
+    margin-left: 70px;
+}
+
+.courseContainer {
+    background-color: #3dbee9;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    height: 150px;
+    max-width: 250px;
+    text-align: center;
+    margin-left: 30px;
+    box-sizing: border-box;
+    box-shadow: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.courseListItem>input {
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: #2723dc;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #2723dc;
+    cursor: pointer;
+}

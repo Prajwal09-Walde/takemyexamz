@@ -1,0 +1,37 @@
+.examInstructionTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+li.examInstruction {
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.examTimer {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    justify-content: right;
+    align-items: flex-end;
+    margin-left: 1200px;
+}
+
+.submitButton {
+    margin-bottom: 40px;
+    height: 40px;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    top: 10px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}

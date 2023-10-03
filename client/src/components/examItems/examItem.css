@@ -1,0 +1,20 @@
+.examListContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.examListContainer>table {
+     border-collapse: collapse;
+     width: 40%;
+     margin-bottom: 20px;
+}
+
+.examListItem {
+    width: 40%;
+    max-width: 250px;
+}

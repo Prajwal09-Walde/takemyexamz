@@ -1,0 +1,27 @@
+.adminTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.adminTitle>table {
+    border-collapse: collapse;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    max-width: 512px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #000000;
+}

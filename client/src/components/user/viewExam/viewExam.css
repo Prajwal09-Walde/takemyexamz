@@ -1,0 +1,14 @@
+.viewExamContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+}
+
+.viewExamContainer>table {
+    border-collapse: collapse;
+    width: 40%;
+    margin-bottom: 20px;
+}

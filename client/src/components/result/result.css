@@ -1,0 +1,12 @@
+.resultTitle {
+   font-size: 40px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.rComponent {
+    margin-left: 150px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
