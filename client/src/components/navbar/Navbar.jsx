@@ -3,7 +3,7 @@ import './navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar d-flex">
            <div className="navbarContainer">
               <Link to='/' style={{color: "inherit", textDecoration: "none"}}>
                 <span className='logo'>TakeMyExamz</span>
