@@ -26,7 +26,7 @@ const CourseForm = () => {
     return (
         <div className='courseForm'>
             <h2 className='text-align-sm-left' style={{ 'marginLeft': '70px' }}>Course Form</h2>
-            <div className='courseContainer d-block justify-content-sm-center align-items-sm-center text-align-sm-center' style={{ 'backgroundColor': '#3dbee9', 'height': '220px', 'maxWidth': '250px', 'borderRadius': '10px', 'marginBottom': '40px', 'marginLeft': '30px', 'marginTop': '50px', 'padding': '30px', 'paddingBottom': '10px', 'paddingTop': '50px' }}>
+            <div className='courseContainer d-block justify-content-sm-center align-items-sm-center text-align-sm-center' style={{ 'backgroundColor': '#3dbee9', 'height': '220px', 'maxWidth': '250px', 'borderRadius': '10px', 'marginBottom': '40px', 'marginLeft': '30px', 'marginTop': '30px', 'padding': '30px', 'paddingBottom': '10px', 'paddingTop': '50px' }}>
                 <div className='courseList'>
                     <form className='form-group'>
                         <div className='courseListItem'>

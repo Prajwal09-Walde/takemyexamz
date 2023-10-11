@@ -50,7 +50,7 @@ const ExamForm = ({ courseId }) => {
 
   return (
     <div className='examForm'>
-      <div className='examContainer text-align-sm-center align-items-sm-flex-end justify-content-sm-center position-absolute' style={{ 'backgroundColor': '#3dbee9', 'height': '550px', 'maxWidth': '350px', 'padding': '30px', 'marginLeft': '950px', 'marginBottom': '300px', 'top': '225px', 'borderRadius': '10px', 'paddingBottom': '20px' }}>
+      <div className='examContainer text-align-sm-center align-items-sm-flex-end justify-content-sm-center position-absolute' style={{ 'backgroundColor': '#3dbee9', 'height': '550px', 'maxWidth': '350px', 'padding': '30px', 'marginLeft': '40px', 'marginBottom': '300px', 'top': '225px', 'borderRadius': '10px', 'paddingBottom': '20px', 'marginTop': '800px' }}>
         <div className='examList align-items-sm-center justify-content-sm-center text-align-sm-center'>
           <form>
             <div className='examListItem'>
@@ -96,7 +96,7 @@ const ExamForm = ({ courseId }) => {
             <input
               type='text'
               placeholder='enter question'
-              style={{ 'border': 'none', 'outline': 'none' }}
+              style={{ 'border': 'none', 'outline': 'none', 'marginBottom': '10px' }}
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
             />

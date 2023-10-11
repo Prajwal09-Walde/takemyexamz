@@ -5,12 +5,12 @@ import CourseForm from '../../components/admin/newCourse/CourseForm';
 
 
 const AdminDashboard = () => {
-    const [courseData, setCourseData] = useState([]);
+  const [courseData, setCourseData] = useState([]);
 
-    useEffect(() => {
-      fetch('https://takemyexamz.onrender.com/api/courses')
+  useEffect(() => {
+    fetch('https://takemyexamz.onrender.com/api/courses')
       .then((rs) => {
-        if(!rs.ok) {
+        if (!rs.ok) {
           throw new Error('Error while retrieving data');
         }
         return rs.json()
@@ -22,38 +22,39 @@ const AdminDashboard = () => {
         }));
         setCourseData(updatedCourseData);
       })
-      .catch ((err) => {
+      .catch((err) => {
         console.error('Error', err);
       })
-    }, [])
+  }, [])
 
-    return (
-        <div>
-          <Navbar/>
-          <h1>Admin Dashboard</h1>
-          <div className='adminTitle'>
-            <CourseForm/>
-            <table>
-               <thead>
-                  <tr>
-                    <th>Course ID</th>
-                    <th>Course Name</th>
-                    <th>Course Description</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  {courseData.map((data) => (
-                    <tr key={data._id}>
-                      <td>{data._id}</td>
-                      <td>{data.name}</td>
-                      <td>{data.desc}</td>
-                    </tr>
-                  ))}
-               </tbody>
-            </table>
-          </div>
-        </div>
-    );
+  return (
+    <div>
+      <Navbar />
+      <h1>Admin Dashboard</h1>
+      <div className='adminTitle'>
+        <CourseForm />
+        <table>
+          <thead>
+            <tr>
+              <th>Course ID</th>
+              <th>Course Name</th>
+              <th>Course Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {courseData.map((data) => (
+              <tr key={data._id}>
+                <td>{data._id}</td>
+                <td>{data.name}</td>
+                <td>{data.desc}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <h2 className='align-text-sm-left' style={{ 'marginLeft': '60px', 'marginTop': '80px' }}>Exam Form</h2>
+      </div>
+    </div>
+  );
 }
 
 export default AdminDashboard;
