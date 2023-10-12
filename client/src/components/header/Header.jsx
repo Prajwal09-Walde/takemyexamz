@@ -23,12 +23,12 @@ const Header = ({ type }) => {
               <span>Contact</span>
             </div>
           </div>
-          <div className='headerListItems'>
+          <div className='headerListItems align-items-sm-center g-10px'>
             <div className='headerListItems active border border-white cursor-pointer' style={{ 'border': '1px solid', 'borderRadius': '10px', 'padding': '10px', 'marginRight': '20px' }}>
               <span>Exams</span>
             </div>
           </div>
-          <div className='headerListItems'>
+          <div className='headerListItems align-items-sm-center g-10px'>
             <div className='headerListItems active border border-white cursor-pointer' style={{ 'border': '1px solid', 'borderRadius': '10px', 'padding': '10px', 'marginRight': '20px' }}>
               <span>About us</span>
             </div>
