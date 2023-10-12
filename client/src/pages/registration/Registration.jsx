@@ -20,8 +20,8 @@ const Registration = () => {
   return (
     <div className='registration'>
       <Navbar />
-      <h1 className='d-flex text-align-sm-center align-items-sm-center justify-content-sm-center' style={{ 'fontWeight': 'bold', 'marginTop': '30px', 'marginLeft': '320px' }}>Registration</h1>
-      <div className='registrationContainer justify-content-sm-center align-items-sm-center d-flex' style={{ 'backgroundColor': '#3dbee9', 'padding': '20px', 'maxWidth': '450px', 'width': '100%', 'marginLeft': '400px', 'marginTop': '40px', 'borderRadius': '10px' }}>
+      <h1 className='d-flex text-align-sm-center align-items-sm-center justify-content-sm-center' style={{ 'fontWeight': 'bold', 'marginTop': '30px', 'marginLeft': '150px' }}>Registration</h1>
+      <div className='registrationContainer justify-content-sm-center align-items-sm-center d-flex' style={{ 'backgroundColor': '#3dbee9', 'padding': '20px', 'maxWidth': '450px', 'width': '100%', 'marginLeft': '400px', 'marginTop': '40px', 'marginBottom': '30px', 'borderRadius': '10px' }}>
         <div className='registrationList'>
           <form className='form-group'>
             <div className='registrationListItem d-block justify-content-sm-center align-items-sm-center text-align-sm-center'>

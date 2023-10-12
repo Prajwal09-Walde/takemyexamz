@@ -124,8 +124,8 @@ const ExamForm = ({ courseId }) => {
                 <br />
               </div>
             ))}
-            <button type='button' className='examButton d-block align-items-sm-center text-align-sm-center justify-content-center' onClick={handleAddQuestions} style={{ 'marginBottom': '10px', 'marginLeft': '40px' }}>Add question</button>
-            <button type='submit' className='examButton d-block align-items-sm-center text-align-sm-center justify-content-center' onClick={handleSubmit} style={{ 'marginBottom': '10px', 'marginLeft': '40px' }}>Create Exam</button>
+            <button type='button' className='examButton d-block align-items-sm-center text-align-sm-center justify-content-center' onClick={handleAddQuestions} style={{ 'marginBottom': '10px', 'marginLeft': '40px', 'backgroundColor': '#2723dc', 'color': '#ffffff', 'border': 'none' }}>Add question</button>
+            <button type='submit' className='examButton d-block align-items-sm-center text-align-sm-center justify-content-center' onClick={handleSubmit} style={{ 'marginBottom': '10px', 'marginLeft': '40px', 'backgroundColor': '#2723dc', 'color': '#ffffff', 'border': 'none' }}>Create Exam</button>
           </form>
         </div>
       </div>

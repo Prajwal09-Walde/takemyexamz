@@ -8,7 +8,7 @@ const Login = () => {
 
   return (
     <div className='Login'>
-      <h1 className='font-weight-bold align-text-sm-right align-items-sm-center justify-content-center' style={{ 'marginTop': '30px', 'marginLeft': '450px' }}>Login</h1>
+      <h1 className='font-weight-bold align-text-sm-center align-items-sm-center justify-content-center' style={{ 'marginTop': '30px', 'marginLeft': '650px' }}>Login</h1>
       <div className='container d-flex align-items-sm-center justify-contents-sm-center' style={{ 'backgroundColor': '#3dbee9', 'height': '350px', 'maxWidth': '30%', 'borderRadius': '10px' }}>
         <div className='loginList'>
           <form className='form-group'>
